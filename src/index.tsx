@@ -1,14 +1,19 @@
 // @ts-ignore
-import React from 'react';
+import * as React from 'react'
 // @ts-ignore
 import ReactDOM from 'react-dom';
 // @ts-ignore
-import Hello from './components/Hello'
+import Hello from './components/hello';
+import Button from "./components/button";
 
 import * as serviceWorker from './serviceWorker';
 
+// @ts-ignore
 ReactDOM.render(
-    <Hello name="TypeScript" />,
+    <>
+        <Hello name="TypeScript" />
+        <Button children="小孩子" />
+    </>,
     document.getElementById('root')
 )
 

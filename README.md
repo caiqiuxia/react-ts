@@ -2,6 +2,8 @@
 
 tslint
 
+SFC 无状态组件开发
+
 ## 官方README
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

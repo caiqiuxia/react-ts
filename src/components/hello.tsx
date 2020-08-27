@@ -3,6 +3,7 @@ import React from 'react';
 
 import { Button } from "antd";
 
+// ts对象类型-接口
 interface Greeting {
     name: string;
     firstName: string;
@@ -17,4 +18,5 @@ Hello.defaultProps = {
     lastName: ''
 }
 
+// @ts-ignore
 export default Hello
