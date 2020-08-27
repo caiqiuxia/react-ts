@@ -1,0 +1,25 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-trailing-whitespace": false, //尾部空格检测
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-whitespace"
+        ],//行内检测
+        "no-console": false, //关闭不允许打印
+        "no-debugger": false,//关闭不允许debugger
+        "comment-format": [
+            true,
+            "check-space"
+        ],//注释行中的空格
+        "ordered-imports": false //关闭import名称排序
+    },
+    "rulesDirectory": []
+}
