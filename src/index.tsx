@@ -1,15 +1,16 @@
+// @ts-ignore
 import React from 'react';
+// @ts-ignore
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// @ts-ignore
+import Hello from './components/Hello'
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <Hello name="TypeScript" />,
+    document.getElementById('root')
+)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
